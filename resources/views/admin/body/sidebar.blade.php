@@ -51,8 +51,8 @@
                         <span>Portfolio Page Setup</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="">All Portfolio</a></li>
-                        <li><a href="">Add Portfolio</a></li>
+                        <li><a href="{{ route('all.portfolio') }}">All Portfolio</a></li>
+                        <li><a href="{{ route('add.portfolio') }}">Add Portfolio</a></li>
 
                     </ul>
                 </li>
@@ -67,8 +67,8 @@
                         <span>Blog Category</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="">All Blog Category</a></li>
-                        <li><a href="">Add Blog Category</a></li>
+                        <li><a href="{{ route('all.blog.category') }}">All Blog Category</a></li>
+                        <li><a href="{{ route('add.blog.category') }}">Add Blog Category</a></li>
                     </ul>
                 </li>
 
@@ -78,11 +78,13 @@
                         <span>Blog Page</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="">All Blog</a></li>
-                        <li><a href="">Add Blog</a></li>
+                        <li><a href="{{ route('all.blog') }}">All Blog</a></li>
+                        <li><a href="{{ route('add.blog') }}">Add Blog</a></li>
 
                     </ul>
                 </li>
+
+
 
 
                 <li>
