@@ -354,4 +354,5 @@
     </div>
 </section>
 <!-- contact-area-end -->
+<!-- contact-area-end -->
 @endsection

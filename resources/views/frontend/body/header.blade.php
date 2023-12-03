@@ -33,7 +33,7 @@
                                     <li class=""><a href="">Our Blog</a>
 
                                     </li>
-                                    <li class=""><a href="">contact me</a></li>
+                                    <li class=""><a href="{{ route('contact.me') }}">contact me</a></li>
                                 </ul>
                             </div>
 
